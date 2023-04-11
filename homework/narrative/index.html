@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>narrative</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Martian Musical Misshap</h1>
+    <div id="section-one" class="">
+        <img src="images/Untitled.jpg" alt="">
+    </div>
+    <div id="section-two" class="hide">
+        <img src="images/Untitled 2.jpg" alt="">
+    </div>
+    <div id="section-three" class="hide">
+        <img src="images/Untitled 3.jpg" alt="">
+    </div>
+    <div id="section-four" class="hide">
+        <img src="images/Untitled 4.jpg" alt="">
+    </div>
+    <div id="section-five" class="hide">
+        <img src="images/Untitled 5.jpg" alt="">
+    </div>
+    <div id="section-six" class="hide">
+        <img src="images/Untitled 6.jpg" alt="">
+    </div>
+    <div id="section-seven" class="hide">
+        <img src="images/Untitled 7.jpg" alt="">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+       $('#section-one').click(function (){
+        $('#section-one').toggleClass('hide')
+        $('#section-two').toggleClass('hide')
+       }) 
+       $('#section-two').click(function (){
+        $('#section-two').toggleClass('hide')
+        $('#section-three').toggleClass('hide')
+       }) 
+       $('#section-three').click(function (){
+        $('#section-three').toggleClass('hide')
+        $('#section-four').toggleClass('hide')
+       }) 
+       $('#section-four').click(function (){
+        $('#section-four').toggleClass('hide')
+        $('#section-five').toggleClass('hide')
+       }) 
+       $('#section-five').click(function (){
+        $('#section-five').toggleClass('hide')
+        $('#section-six').toggleClass('hide')
+       }) 
+       $('#section-six').click(function (){
+        $('#section-six').toggleClass('hide')
+        $('#section-seven').toggleClass('hide')
+       }) 
+       $('#section-seven').click(function (){
+        $('#section-seven').toggleClass('hide')
+        $('#section-one').toggleClass('hide')
+       }) 
+    </script>
+</body>
+</html>
