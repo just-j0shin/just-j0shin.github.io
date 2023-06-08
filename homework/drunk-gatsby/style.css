@@ -1,0 +1,40 @@
+.right{
+
+    left: 97%;
+    top: 50%;
+    width: 3%;;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    }
+
+.left{
+
+        width: 3%;
+        left: -0.5;
+        top: 45.5%;
+        position: absolute;
+        transform: translate(50%,50%);
+        }
+
+.return{
+    left: 97%;
+    top: 50%;
+    width: 3%;;
+    position:absolute;
+    transform: translate(-50%,-50%);
+}
+
+img{
+    width: 100%;
+}
+div{
+    width: 90%;
+    margin: auto;
+
+}
+
+
+
+.hide {
+    display:none;
+}
