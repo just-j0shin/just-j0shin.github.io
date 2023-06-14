@@ -1,0 +1,79 @@
+
+video{
+    position: absolute;
+    left:12%;
+    width: 75%;
+    top: 8%;
+}
+
+.text{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.homebutton{
+    position: absolute;
+    left: 1%;
+    top: 2%;
+
+
+}
+
+.enterbutton{
+    position:absolute;
+    left: 46%;
+    top: 43%;
+    opacity: 70%;
+}
+
+.clozee{
+    position: absolute;
+    top: 91%;
+    left: 17%;
+}
+
+.ganja{
+    position: absolute;
+    top: 90%;
+    left: 29%;
+}
+.inzo{
+    position: absolute;
+    top: 91.5%;
+    left: 37%;
+}
+.griz{
+    position: absolute;
+    top: 89.5%;
+    left: 43.5%;
+}
+.liquid{
+    position: absolute;
+    top: 91.5%;
+    left: 53.5%;
+}
+.rezz{
+    position: absolute;
+    top: 91%;
+    left: 61%;
+}
+.lsdream{
+    position: absolute;
+    top: 89.5%;
+    left: 68%;
+}
+.trippy{
+    position: absolute;
+    top: 91.5%;
+    left: 76%;
+}
+
+ul li{
+  list-style:none; 
+
+}
+
+
+
+
